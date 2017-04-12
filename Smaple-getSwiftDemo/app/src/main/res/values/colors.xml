@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFFFF</color>
+    <color name="colorAccent">#FFF1592D</color>
+
+    <color name="blue">#1DA7D2</color>
+    <color name="blue_light">#007AFF</color>
+    <color name="gray">#D2D2D2</color>
+    <color name="white">#ffffff</color>
+    <color name="progress_gray">#FFD8D8D8</color>
+    <color name="progress_gray_dark">#FF383838</color>
+    <color name="red">#ffe2231a</color>
+    <color name="dark_red">#ff510209</color>
+    <color name="primary">#009688</color>
+    <color name="primary_dark">#00796B</color>
+    <color name="primary_light">#B2DFDB</color>
+    <color name="accent">#FF5252</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="gray_dark">#DDD</color>
+    <color name="black_70_alpha">#70000000</color>
+    <color name="black">#FF000000</color>
+    <color name="black_text">#87000000</color>
+    <color name="gray_sec_text">#54000000</color>
+    <color name="gray_hint_text">#38000000</color>
+    <color name="gray_divider">#12000000</color>
+    <color name="gray_divider_light">#d8d8d8</color>
+
+    <color name="app_color">#FFF8981D</color>
+    <color name="app_color_dark">#FFED7C15</color>
+    <color name="white_50_alpha">#10000000</color>
+    <color name="black_30_alpha">#30000000</color>
+    <color name="gray_dark_bg">#CCCCCC</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_very_light">#F9F9F9</color>
+    <color name="gray_very_dark">#9B9B9B</color>
+    <color name="red_very_dark">#CE0B24</color>
+    <color name="gray_medium">#C7C7C7</color>
+    <color name="red_dull">#EE5D38</color>
+    <color name="gray_dull">#30000000</color>
+    <color name="gray_very_dull">#20000000</color>
+</resources>
