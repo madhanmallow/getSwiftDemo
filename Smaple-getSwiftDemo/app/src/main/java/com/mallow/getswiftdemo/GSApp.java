@@ -42,7 +42,9 @@ public class GSApp extends Application {
     public static GSApp getInstance() {
         return m_instance;
     }
-
+    public void onDestroy(){
+        super.onDestroy();
+    }
     /**
      * Summary
      */
