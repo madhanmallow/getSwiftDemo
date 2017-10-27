@@ -17,7 +17,6 @@ import cz.msebera.android.httpclient.entity.StringEntity;
  */
 @SuppressWarnings("deprecation")
 public class GSHttpClient {
-
     private static final String TAG = "CXHttpClient";
 
     //Http headers
@@ -29,7 +28,6 @@ public class GSHttpClient {
     private final AsyncHttpClient m_asyncHttpClient;
 
     public GSHttpClient(Context context) {
-
         // Configure http client
         m_asyncHttpClient = new AsyncHttpClient();
 
@@ -53,7 +51,6 @@ public class GSHttpClient {
         jsonHandler.setUrl(url);
         jsonHandler.setHandler(handler);
         return m_asyncHttpClient.get(context, url, jsonHandler);
-
     }
 
     /**
@@ -69,7 +66,6 @@ public class GSHttpClient {
         jsonHandler.setUrl(url);
         jsonHandler.setHandler(handler);
         return m_asyncHttpClient.delete(context, url, jsonHandler);
-
     }
 
     /**
@@ -87,7 +83,6 @@ public class GSHttpClient {
         StringEntity entity;
         entity = new StringEntity(object.toString(), "UTF8");
         return m_asyncHttpClient.patch(context, url, entity, "application/json", jsonHandler);
-
     }
 
     /**
@@ -111,12 +106,10 @@ public class GSHttpClient {
         entity = new StringEntity(json.toString(), "UTF8");
 
         return m_asyncHttpClient.post(context, url, entity, "application/json", jsonHandler);
-
     }
 
 
     private RequestHandle put(Context context, String url, JSONObject json, GSHttpClientResponseHandler handler) {
-
         GSJsonHttpResponseHandler jsonHandler = new GSJsonHttpResponseHandler();
 
         jsonHandler.setUrl(url);
@@ -125,9 +118,7 @@ public class GSHttpClient {
         StringEntity entity;
 
         entity = new StringEntity(json.toString(), "UTF8");
-
         return m_asyncHttpClient.put(context, url, entity, "application/json", jsonHandler);
-
     }
 
     public RequestHandle callAddJob(Context context, String eDestination_Address, String eDescription, String eContactName, String eContactPhone, String eEmailID, GSHttpClientResponseHandler handler) {
